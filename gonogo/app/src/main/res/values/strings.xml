@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">gonogo</string>
+
+    <string name="standard_button_string">Standard</string>
+    <string name="endless_button_string">Endless</string>
+    <string name="stats_button_string">Statistics</string>
+    <string name="title_string">Go-No Go</string>
+    <string name="help_button_string">Help</string>
+
+    <string name="back_button_string">Back</string>
 </resources>

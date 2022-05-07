@@ -2,23 +2,19 @@ package com.example.gonogo
 
 //import android.R
 import android.graphics.Color
-import android.graphics.PorterDuff
-import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
-import java.util.concurrent.TimeUnit
 import kotlin.system.exitProcess
 
 
-class MainActivity : AppCompatActivity() {
+class GoNoGoActivity : AppCompatActivity() {
 
     var circle: ImageView ? = null
     var changeColor: GradientDrawable ? = null
@@ -44,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.gonogoactivity)
         circle = findViewById(R.id.circle_view)
         circleText = findViewById(R.id.circle_text)
         scoreText = findViewById(R.id.score)
