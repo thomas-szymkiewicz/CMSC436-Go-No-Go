@@ -27,11 +27,13 @@ class StartMenu : Activity(){
     // Starts the standard activity
     fun standardClick(v: View) {
 
-        //Todo: Create an explicit Intent for starting the Standard Activity
+        // Intent for the Standard
         val standardModeIntent = Intent(
             this@StartMenu,
             GoNoGoActivity::class.java
         )
+
+        standardModeIntent.putExtra("Mode", "Standard")
 
         // Use the Intent to start the Standard Go-No Go Activity
         startActivity(standardModeIntent)
@@ -42,11 +44,13 @@ class StartMenu : Activity(){
     // Starts the endless activity
     fun endlessClick(v: View) {
 
-        //Todo: Create an explicit Intent for starting the Endless Activity
+        // Intent for the Endless
         val endlessModeIntent = Intent(
             this@StartMenu,
             GoNoGoActivity::class.java
         )
+
+        endlessModeIntent.putExtra("Mode", "Endless")
 
         // Use the Intent to start the Endless Go-No Go Android Activity
         startActivity(endlessModeIntent)

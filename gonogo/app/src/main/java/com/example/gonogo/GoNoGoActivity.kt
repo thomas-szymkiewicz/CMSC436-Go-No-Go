@@ -51,8 +51,10 @@ class GoNoGoActivity : AppCompatActivity() {
         var quitBtn = findViewById<Button>(R.id.quitBtn)
 
         // TODO: passed startGame() input from menu
-        startGame("Endless")
+        // Get mode from the intent that launched activity
+        val goMode = intent.getStringExtra("Mode").toString()
 
+        startGame(goMode)
         startTimer()
 
 

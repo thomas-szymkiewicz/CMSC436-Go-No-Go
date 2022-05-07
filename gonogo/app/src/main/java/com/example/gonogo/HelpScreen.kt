@@ -27,17 +27,8 @@ class HelpScreen : Activity(){
     // Starts the standard activity
     fun backClick(v: View) {
 
-        // Set Up intents
-        // Set Up intents
-        // Create an explicit Intent for displaying the help page
-        // Activity
-        val helpPageIntent = Intent(
-            this@HelpScreen,
-            HelpScreen::class.java
-        )
-
-        // Use the Intent to start the HelloAndroid Activity
-        startActivity(helpPageIntent)
+        // Go back to previous activity on the stack
+        finish()
 
     }
 }

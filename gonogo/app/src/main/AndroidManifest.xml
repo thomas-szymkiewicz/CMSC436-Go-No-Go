@@ -10,13 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gonogo">
         <activity
-            android:name=".GoNoGoActivity"
+            android:name=".StartMenu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GoNoGoActivity">
+        </activity>
+
+        <activity
+            android:name=".HelpScreen">
         </activity>
     </application>
 
