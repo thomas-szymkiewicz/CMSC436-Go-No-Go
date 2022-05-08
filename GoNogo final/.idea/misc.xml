@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/activity_main.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/customborder.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/gonogoactivity.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/header_view.xml" value="0.1" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/list_layout.xml" value="0.1" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/startmenu.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/task_header_view.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/task_item.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/todo_item.xml" value="0.1" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/trail_item.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/jdbog/Documents/CMSC436/cmsc436-jboggs1/GoNogo/app/src/main/res/layout/trial_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/xsilv/CMSC436/GoNogo final/app/src/main/res/layout/helpscreen.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
