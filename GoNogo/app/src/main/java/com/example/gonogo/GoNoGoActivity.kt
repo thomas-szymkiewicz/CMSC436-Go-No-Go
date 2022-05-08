@@ -63,6 +63,12 @@ class GoNoGoActivity : AppCompatActivity() {
         var menuBtn = findViewById<Button>(R.id.menuBtn)
         var quitBtn = findViewById<Button>(R.id.quitBtn)
 
+        go = true // true when circle is green
+        score = 0
+        mode = ""
+        done = false
+        active = true
+
         // Get mode from the intent that launched activity
         val goMode = intent.getStringExtra("Mode").toString()
 

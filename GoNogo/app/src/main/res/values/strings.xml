@@ -20,7 +20,7 @@
     <string name="trial_graph_title">Trial Number vs. Response Time</string>
     <string name="trial_type">Type</string>
     <string name="trial_response">Response</string>
-    <string name="trial_response_time">Type</string>
+    <string name="trial_response_time">Response Time</string>
 
     <string name="tasks_title">List of Tasks</string>
 </resources>
